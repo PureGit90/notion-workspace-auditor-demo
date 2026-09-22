@@ -1,5 +1,5 @@
 """
-Notion Workspace Health Auditor — Streamlit UI.
+Notion Workspace Health Auditor -- Streamlit UI.
 
 Audits a Notion database's structure (relations, rollups, formulas, select
 options) and shows how an external event would sync into Notion via an
@@ -62,7 +62,7 @@ if result:
     for rec in result["recommendations"]:
         st.markdown(f"- {rec}")
 
-    st.caption("Sample audit — connect your Notion API key for a live workspace scan.")
+    st.caption("Sample audit -- connect your Notion API key for a live workspace scan.")
 
 st.divider()
 

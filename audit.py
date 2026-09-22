@@ -1,5 +1,5 @@
 """
-Notion Workspace Health Auditor — core logic.
+Notion Workspace Health Auditor -- core logic.
 
 Connects to a Notion database via the official API and analyzes its schema
 for common structural problems: missing relations, missing rollups,
@@ -84,7 +84,7 @@ def _mock_notion_audit(database_name: str) -> dict[str, Any]:
             "category": "Orphaned Property",
             "finding": (
                 "\"Notes\" appears in 0 of 6 views and has content on only "
-                "4% of rows. It is not deleted, just abandoned — a good "
+                "4% of rows. It is not deleted, just abandoned -- a good "
                 "candidate to fold into a comment or remove."
             ),
         },

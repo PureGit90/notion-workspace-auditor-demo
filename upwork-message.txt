@@ -1,0 +1,7 @@
+Live demo: https://notion-workspace-auditor-demo.streamlit.app/
+
+Built a working Notion workspace auditor so you can see the approach before we talk. Point it at a database and it flags missing relations, duplicate status options, missing rollups, and unused formula opportunities, then scores the workspace and lists concrete fixes. There's a second section simulating the n8n/Zapier/Make sync side too, showing an external event landing as a properly structured Notion page.
+
+For your actual workspace I'd start with a paid audit session to map the real state and scope the rebuild precisely, then build out the relations, rollups, dashboards, and external sync integrations from there. $42/hr, within your posted range.
+
+Free Tuesday or Wednesday for a 15-minute call to look at your actual workspace. Which works better for you?
